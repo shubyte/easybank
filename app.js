@@ -4,7 +4,7 @@ const hambClose = document.getElementById("hambClose");
 const navList = document.getElementById("navList");
 const navLogoWhite = document.getElementById("navwhite");
 const navLogoBlack = document.getElementById("navblack");
-const backDrop = document.getElementById("backdrop");
+const backdrop = document.getElementById("backdrop");
 const nav = document.querySelectorAll(".nav");
 
 const navArr = Array.from(nav);
