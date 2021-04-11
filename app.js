@@ -8,7 +8,7 @@ const backdrop = document.getElementById("backdrop");
 const nav = document.querySelectorAll(".nav");
 
 const navArr = Array.from(nav);
-const openCloseListeners = navArr.concat([hambClose, backDrop, hambOpen]);
+const openCloseListeners = navArr.concat([hambClose, backdrop, hambOpen]);
 
 colorSwitcher.addEventListener("change", () => {
   document.body.classList.toggle("dark");
